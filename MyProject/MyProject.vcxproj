@@ -19,7 +19,6 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="HomeWork.cpp" />
     <ClCompile Include="MyArchiveC++Code.cpp" />
     <ClCompile Include="Main35.cpp" />
   </ItemGroup>
