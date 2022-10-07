@@ -21,6 +21,7 @@
   <ItemGroup>
     <ClCompile Include="MyArchiveC++Code.cpp" />
     <ClCompile Include="Main35.cpp" />
+    <ClCompile Include="Source.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>

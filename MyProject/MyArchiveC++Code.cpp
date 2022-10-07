@@ -818,3 +818,309 @@ int main()
 //int main() {
 //
 //}
+
+/*-------------------------------------------------------*/
+//	int a = 33;
+//
+//	double b = 24234.11;
+//
+//	cout << int(a / b) << endl
+
+
+//	setlocale(LC_ALL, "");
+//	for (int i = 0; i <= 255; i++)
+//	{
+//		cout << "code = " << i << "\t" << "char = " << (char)i << endl;
+//	}
+
+/*-------------------------------------------------------*/
+//void foo(const char* str) {
+//	cout << strlen(str) << endl;
+//}
+//int main() {
+//
+//	const char* str = "Hello";
+//	foo(str);
+//
+//}
+
+/*-------------------------------------------------------*/
+//int main() {
+//
+//	string str = "Hello";
+//	string str1 = "World";
+//	string result;
+//	result = str + " " + str1;
+//	cout << result;
+//
+//}
+
+/*-------------------------------------------------------*/
+//string GetDataFrom08() {
+//	return "Data from BD";
+//}
+//
+//string GetDataFromWebServer() {
+//	return "Data From WebServer";
+//}
+//string GetDataFromAstal() {
+//	return "Data form astaral";
+//}
+//
+//void ShowInfo(string (*foo)())
+//{
+//	cout << foo() << endl;
+//
+//}
+//
+//
+//int main() {
+//	ShowInfo(GetDataFromWebServer);
+//}
+
+/*-------------------------------------------------------*/
+//#include <iostream>
+//#define PI 3.14
+//#define tab "\t"
+//#define begin {
+//#define end }
+//using namespace std;
+//
+//int main() {
+//
+//	for (int i = 0; i < 5; i++)
+//		begin
+//		cout << i << endl;
+//		end
+//}
+//#include <iostream>
+//#define FOO(x, y) ((x)*(y))
+//using namespace std;
+//
+//int main() {
+//	cout << FOO(5, 6) << endl;
+//}
+
+/*-------------------------------------------------------*/
+//#include <iostream>
+//#define DEBUG
+//using namespace std;
+//
+//int main() {
+//	setlocale(LC_ALL, "");
+//#ifdef DEBUG
+//	cout << "Дебаг определен" << endl;
+//#else
+//	cout << "Дебаг не определен" << endl;
+//#endif //DEBUG
+//}
+
+/*-------------------------------------------------------*/
+//#include <iostream>
+//using namespace std;
+//
+//int main() {
+//	int a;
+//	cout << "Введите значение переменной - " ;cin >> a;
+//	(a < 10) ? cout << a << "a < 10" << endl : (a > 10) ? cout << "a > 10" << endl : cout << "a = 10" << endl;
+//}
+
+/*-------------------------------------------------------*/
+//void main(int argc, char* argv[]) {
+//
+//	for (int i = 0; i < argc; i++) {
+//		cout << argv[i] << endl;
+//	}
+//
+//	system("pause");
+//}
+
+
+//#include <iostream>
+//#include <string>
+//using namespace std;
+//class CoffeeGrinder {
+//
+//private:
+//
+//	bool CheckVoltage() {
+//		return true;
+//	}
+//
+//public:
+//	void Start() {
+//		
+//		if (CheckVoltage) {
+//		      cout << "Vjuhhhhh" << endl;
+//
+//		}
+//		else 
+//		{
+//			cout << "Beep Beep" << endl;
+//
+//		}
+//	}
+//};
+//
+//
+//int main() {
+//	
+//	CoffeeGrinder a;
+//	a.Start();
+//}
+
+
+//#include <iostream> 
+//using namespace std;
+//class Point {
+//private:
+//	int x;
+//	int y;
+//public:
+//	Point(int valueX, int valueY) {
+//		x = valueX;
+//		y = valueY;
+//	}
+//public:
+//	void Print() {
+//		cout << "x = " << x << endl << "y = " << y << endl;
+//	}
+//};
+//int main() {
+//	Point a(5,44);
+//	a.Print();
+//	cout << endl;
+//	Point b(34, 45);
+//	b.Print();
+//}
+
+
+
+//class Point {
+//private:
+//	int x;
+//	int y;
+//public:
+//	Point() {
+//		x = 0;
+//		y = 0;
+//	}
+//	Point(int valueX, int valueY) {
+//		x = valueX;
+//		y = valueY;
+//    }
+//	Point(int valueX, bool boolean) {
+//		x = valueX;
+//		if (boolean) {
+//			y = 1;
+//		}
+//		else 
+//		{
+//			y = -1;
+//
+//		}
+//	}
+//public:
+//	void Print() {
+//		cout << "x = " << x << endl << "y = " << y << endl;
+//	}
+//};
+//int main() {
+//	Point a;
+//	a.Print();
+//	Point b(4,2);
+//	b.Print();
+//	Point c(22, true);
+//	c.Print();
+//	
+//}
+
+
+//class MyClass {
+//private:
+//	int *data;
+//public:
+//	MyClass(int size) {
+//		data = new int[size];
+//		for (int i = 0; i < size; i++) {
+//			data[i] = i;
+//		}
+//		cout << " Object - " << data << "The destructor constructor" << endl;
+//	}
+//
+//	~MyClass() {
+//		delete[] data;
+//		cout <<" Object - " << data << "The destructor volunteered" << endl;
+//	}
+//};
+//void Foo() {
+//	cout << "Foo Getting Started - " << endl;
+//	MyClass a(1);
+//	cout << "Foo End of execution - " << endl;
+//}
+//
+//
+//int main() {
+//	Foo();
+//	return 0;
+//}
+
+
+	//Point() {
+	//	x = 0;
+	//	y = 0;
+	//	cout << this << " constructor" << endl;
+	//	
+	//}
+	//void SetX(int x) {
+	//	this->x = x;
+
+	//}
+	//Point(int valueX, int valueY) {
+	//	x = valueX;
+	//	y = valueY;
+	//	cout << this << " constructor2" << endl;
+
+ //   }
+
+
+
+//class MyClass {
+//public:
+//	int* data;
+//
+//	MyClass(int size) {
+//		this->size = size;
+//		this->data = new int[size];
+//
+//		for (int i = 0; i < size; i++) {
+//			data[i] = i;
+//		}
+//		cout << "The destructor constructor" << this << endl;
+//	};
+//
+//	MyClass(const MyClass& other) {
+//
+//		this->size = other.size;
+//		this->data = new int[other.size];
+//		for (int i = 0; i < other.size; i++) {
+//			this->data[i] = other.data[i];
+//		}
+//		cout << "The copy constructor is invoked" << this << endl;
+//	}
+//
+//	~MyClass() {
+//		cout << "The destructor volunteered" << this << endl;
+//		delete[] data;
+//	};
+//private:
+//	int size;
+//};
+//
+//int main() {
+//	MyClass a(10);
+//	MyClass b(a);
+//
+//	return 0;
+//
+//}
