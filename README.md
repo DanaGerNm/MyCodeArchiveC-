@@ -1,3 +1,2 @@
-# MyCodeArchiveC-
-Lots of C++ code take use with pleasure
+В этот репозиторий я кидаю куски кода которые я пишу.
 Вы можете спокойно брать и использовать код.
