@@ -21,6 +21,10 @@
   <ItemGroup>
     <ClCompile Include="MyArchiveC++Code.cpp" />
     <ClCompile Include="Main35.cpp" />
+    <ClCompile Include="MyClassFour.cpp" />
+    <ClCompile Include="MyClassOne.cpp" />
+    <ClCompile Include="MyClassThree.cpp" />
+    <ClCompile Include="MyClassTwo.cpp" />
     <ClCompile Include="Source.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
